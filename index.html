@@ -214,10 +214,10 @@
 
   <div class="signup">
     <p class="signup-label">Be the first to know</p>
-    <div class="signup-row">
-      <input type="email" placeholder="your@email.com" id="email-input" />
-      <button onclick="handleSignup()">Notify me</button>
-    </div>
+    <form class="signup-row" action="https://formspree.io/f/xdabbbel" method="POST">
+      <input type="email" name="email" placeholder="your@email.com" required />
+      <button type="submit">Notify me</button>
+    </form>
   </div>
 
 </main>
